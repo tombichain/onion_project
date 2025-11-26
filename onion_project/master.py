@@ -15,9 +15,9 @@ class Master:
 
         # Connexion MariaDB (ajuste user/password si nécessaire)
         self.db = mariadb.connect(
-            host="192.168.133.130",
-            user="root",
-            password="osboxes.org",
+            host="localhost",
+            user="onion",
+            password="toto",
             database="onion"
         )
         self.cursor = self.db.cursor()
@@ -99,3 +99,4 @@ class Master:
 if __name__ == "__main__":
     m = Master(port=9000)
     m.start()
+
