@@ -1,3 +1,6 @@
+Tom Bichain 
+RT21 DevCloud FA
+
 # Projet de Routage en Oignon
 
 Ce projet implémente un système de communication anonyme basé sur le principe du routage en oignon, similaire à Tor. Les messages sont chiffrés en plusieurs couches et transitent par une chaîne de routeurs, chacun ne connaissant que son voisin immédiat.
